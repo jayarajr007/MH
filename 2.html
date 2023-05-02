@@ -21,6 +21,21 @@
                 -webkit-text-size-adjust: none;
                 word-break: break-word;
             }
+            ul.list
+            {
+                padding-left: 10px;
+            }
+            ul.list li {
+                list-style-type: none;
+    display: flex;
+    padding-bottom: 10px;
+    color: #303030;
+}
+
+ul.list li img{
+    width: 21px;
+    margin-right: 9px;
+}
 
             .headtext {
                 animation: color-change 1s infinite;
@@ -85,7 +100,7 @@
             strong {
                 font-weight: bold !important;
             }
-
+/* 
             td img {
                 -ms-interpolation-mode: bicubic;
                 display: block;
@@ -95,7 +110,7 @@
                 margin: auto;
                 display: block !important;
                 border: 0px !important;
-            }
+            } */
 
             td p {
                 margin: 0 !important;
@@ -865,11 +880,14 @@
                                                                     </tr>
 
 
-                                                                  
+
                                                                     <tr>
                                                                         <td data-text="Description" data-font="Primary"
-                                                                            align="left" valign="middle"
-                                                                            style="    font-family: Poppins-SemiBold, sans-serif;color:#303030;font-size:20px;line-height:24px; font-weight:bold; letter-spacing:0px;padding:0;padding-bottom:30px;"
+                                                                            align="left" valign="middle" style="font-family: Poppins, sans-serif;
+                                                                            color: #303030;
+                                                                            font-size: 16px;
+                                                                            line-height: 15px;
+                                                                            letter-spacing: 0px;"
                                                                             contenteditable="true" data-gramm="false"
                                                                             class="subhead2">
                                                                             Dear registered user of Horizon,
@@ -880,32 +898,47 @@
                                                                     <tr>
 
                                                                         <td data-text="Description" data-font="Primary"
-                                                                            align="left" valign="middle"
-                                                                            style="font-family:'Poppins', sans-serif;color:#303030;font-size:15px;line-height:24px;font-weight:500;letter-spacing:0px;padding:0;padding-bottom:30px;"
-                                                                            contenteditable="true" data-gramm="false"
-                                                                            class="subhead2">
+                                                                            align="left" valign="middle" style="    font-family: Poppins, sans-serif;
+                                                                            font-weight: bold;
+                                                                            color: #303030;
+                                                                            font-size: 15px;
+                                                                            line-height: 24px;" contenteditable="true"
+                                                                            data-gramm="false" class="subhead2">
                                                                             We are excited to announce the launch of our
                                                                             new program, the Smart Study Program.
 
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
+
                                                                         <td data-text="Description" data-font="Primary"
                                                                             align="left" valign="middle"
-                                                                            style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
+                                                                            style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:500;letter-spacing:0px;padding:0;padding-bottom:30px;"
                                                                             contenteditable="true" data-gramm="false"
                                                                             class="subhead2">
                                                                             The Smart Study Program is designed to
                                                                             provide your child with a comprehensive
-                                                                            learning experience that will help them
-                                                                            prepare effectively for their exams and
-                                                                            achieve their academic goals. 
-                                                                            We understand that education is an important
-                                                                            aspect of your child's growth and
-                                                                            development, and we want to make sure that
-                                                                            we provide you with the best resources and
-                                                                            tools to support your child's learning
-                                                                            journey.
+                                                                            learning experience that
+                                                                            will help them prepare effectively for their
+                                                                            exams and achieve their academic goals.
+                                                                        </td>
+                                                                    </tr>
+
+
+
+
+
+
+
+
+
+                                                                    <tr>
+                                                                        <td data-text="Description" data-font="Primary"
+                                                                            align="left" valign="middle"
+                                                                            style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
+                                                                            contenteditable="true" data-gramm="false"
+                                                                            class="subhead2">
+                                                                            SMART STUDY PROGRAM
 
 
                                                                         </td>
@@ -916,19 +949,30 @@
                                                                             style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
                                                                             contenteditable="true" data-gramm="false"
                                                                             class="subhead2">
-                                                                            The program offers a variety of features and
-                                                                            resources that are aimed at helping your
-                                                                            child succeed. These include recorded
-                                                                            classes that your child can access at their
-                                                                            own pace and convenience, live master
-                                                                            classes where experienced teachers deliver
-                                                                            lectures on various subjects and topics,
-                                                                            chapter-wise tests to help students assess
-                                                                            their understanding of the concepts and
-                                                                            topics covered in each chapter, and
-                                                                            flashcards that provide a quick and easy way
-                                                                            for students to revise important concepts
-                                                                            and formulas before an exam.
+
+                                                                            <ul class="list">
+                                                                                <li> <img src="tick.svg"/> Designed for CBSE & State Board
+                                                                                    students in classes 8-12</li>
+
+
+                                                                         
+                                                                  
+                                                                            <li> <img src="tick.svg"/>Courses crafted by subject matter
+                                                                                experts & teachers from top educational
+                                                                                institutions</li>
+                                                                            <li><img src="tick.svg"/> Live master classes for real-time
+                                                                                interaction with teachers and peers</li>
+                                                                            <li><img src="tick.svg"/>Regular practice tests and progress
+                                                                                reports for all topics</li>
+                                                                            <li><img src="tick.svg"/>Doubt solving through in-class and
+                                                                                WhatsApp support</li>
+                                                                            <li><img src="tick.svg"/> Self-study content, subject notes, and
+                                                                                flashcards provided as resources</li>
+                                                                            <li><img src="tick.svg"/>Mentorship available for students</li>
+                                                                            <li><img src="tick.svg"/> Regular Parents Teachers Meetings to
+                                                                                track progress</li>
+                                                                            <li><img src="tick.svg"/>Take advantage of the full academic year
+                                                                                program for only Rs. 5000/-</li>
 
 
                                                                         </td>
@@ -940,48 +984,18 @@
                                                                             style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
                                                                             contenteditable="true" data-gramm="false"
                                                                             class="subhead2">
-                                                                            Additionally, the program also provides
-                                                                            practice questions, in-class and WhatsApp
-                                                                            doubt-solving, class notes, mentorship, and
-                                                                            PTMs. Regular tests and reports are also
-                                                                            provided to help you track your child's
-                                                                            progress and identify areas that need
-                                                                            improvement.
+                                                                            As a parent, investing in your child's
+                                                                            education is crucial, and we believe that
+                                                                            the Smart Study Program
+                                                                            provides a unique opportunity to do just
+                                                                            that.
 
 
                                                                         </td>
                                                                     </tr>
-                                                                    <tr>
-                                                                        <td data-text="Description" data-font="Primary"
-                                                                            align="left" valign="middle"
-                                                                            style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
-                                                                            contenteditable="true" data-gramm="false"
-                                                                            class="subhead2">
-                                                                            We believe that investing in your child's
-                                                                            education is one of the most important
-                                                                            things you can do as a parent, and the Smart
-                                                                            Study Program provides you with a unique
-                                                                            opportunity to do just that. We encourage
-                                                                            you to enroll your child in the program and
-                                                                            take advantage of the many resources and
-                                                                            features it has to offer.
 
 
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td data-text="Description" data-font="Primary"
-                                                                            align="left" valign="middle"
-                                                                            style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
-                                                                            contenteditable="true" data-gramm="false"
-                                                                            class="subhead2">
-                                                                            Thank you for choosing Horizon as your
-                                                                            learning partner, and we look forward to
-                                                                            supporting your child's academic journey.
 
-
-                                                                        </td>
-                                                                    </tr>
                                                                     <tr>
                                                                         <td align="center" valign="middle">
                                                                             <table border="0" align="center"
@@ -1004,13 +1018,35 @@
                                                                             </table>
                                                                         </td>
                                                                     </tr>
+
+
+
+
+
+
+                                                                    <tr>
+                                                                        <td data-text="Description" data-font="Primary"
+                                                                            align="left" valign="middle"
+                                                                            style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-bottom:30px;"
+                                                                            contenteditable="true" data-gramm="false"
+                                                                            class="subhead2">
+                                                                            Thank you for choosing Horizon as your
+                                                                            learning partner, and we look forward to
+                                                                            supporting your child's
+                                                                            academic journey.
+
+
+                                                                        </td>
+                                                                    </tr>
+
+
                                                                     <tr>
                                                                         <td data-text="Description" data-font="Primary"
                                                                             align="left" valign="middle"
                                                                             style="font-family:'Poppins', sans-serif;color:#939393;font-size:15px;line-height:24px;font-weight:400;letter-spacing:0px;padding:0;padding-top:30px;"
                                                                             contenteditable="true" data-gramm="false"
                                                                             class="">
-                                                                           
+
                                                                             Best regards,
 
                                                                         </td>
@@ -1021,7 +1057,7 @@
                                                                             style="font-family:'Poppins', sans-serif;color:##181818;font-size:15px;line-height:24px;font-weight:500;letter-spacing:0px;padding:0;padding-bottom:30px;"
                                                                             contenteditable="true" data-gramm="false"
                                                                             class="subhead2">
-                                                                           
+
                                                                             Horizon Team.
 
                                                                         </td>
@@ -1032,7 +1068,7 @@
                                                                     </tr> -->
 
 
-                                                                   
+
 
 
                                                     </tr>
@@ -1062,7 +1098,7 @@
                                     <tr>
                                         <td data-bgcolor="Bgcolor" align="center" bgcolor="#FFFFFF"
                                             style="background-color: #FFFFFF;">
-                                         
+
                                             <table width="620" border="0" cellpadding="0" cellspacing="0" align="center"
                                                 class="row" style="width:620px;max-width:620px;"></table>
                                             <table data-group="Footer" data-module="Footer" data-thumbnail="#"
