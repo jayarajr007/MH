@@ -13,7 +13,7 @@ ul.list {
 }
 
 ul.list li {
-    list-style-type: none;
+    list-style-type: none !important;
     display: flex;
     padding-bottom: 10px;
     color: #303030;
