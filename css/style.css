@@ -10,13 +10,14 @@ body {
 
 ul.list {
     padding-left: 10px;
+    list-style-type: none !important;
 }
 
 ul.list li {
     list-style-type: none !important;
-    display: flex;
+    /* display: flex; */
     padding-bottom: 10px;
-    color: #303030;
+    color: #303030 !important;
 }
 
 ul.list li img {
