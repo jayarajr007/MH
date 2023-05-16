@@ -174,29 +174,3 @@ u+#body a {
 .star:hover~.star a {
     color: #FFCF0F !important;
 }
-
-
-
-
-@font-face {
-    font-family: IRANSans;
-    font-style: normal;
-    font-weight: normal;
-    src: url('/theme/boost/fonts/eot/IRANSansWeb.eot');
-    src: url('/theme/boost/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
-             url('/theme/boost/fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
-             url('/theme/boost/fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-             url('/theme/boost/fonts/ttf/IRANSansWeb.ttf') format('truetype');
-}
-
-body{ 
-
-    font-family: 'Poppins', sans-serif !important;
-}
-
-
-
-
-
-
-
